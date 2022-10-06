@@ -4,7 +4,7 @@ steps:
 - name: clone
   image: docker:git
   commands:
-  - git clone https://github.com/octocat/hello-world.git
+  - git clone https://github.com/manjunathksm/dockertest.git
 
 - name: build
   image: alpine:3.8
